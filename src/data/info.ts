@@ -35,11 +35,24 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Boxxle style Zelda",
       isFeatured: true,
-      thumbnail: "",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "./assets/images/boxxle.png",
+      githubUrl: "https://ytrack.learn.ynov.com/git/apierre/boxxle",
     },
+
+    {
+      title: "Music Tracker",
+      isFeatured: true,
+      thumbnail: "./assets/images/musicTracker.png",
+      githubUrl: "https://github.com/Lyon-Ynov-Campus/groupie-tracker-musictracker",
+    },
+
+    {
+      title: "Hangman Go",
+      isFeatured: true,
+      thumbnail: "./assets/images/hangmanGo.png",
+      githubUrl: "https://ytrack.learn.ynov.com/git/apierre/hangman-classic",
+    }
   ],
 };
